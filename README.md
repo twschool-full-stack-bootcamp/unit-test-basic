@@ -1,27 +1,34 @@
-# JUNIT And AssertJ Example
+# Unit Test Comprehensive 
 
-## 背景介绍
+## Business Requirement
 
-示例代码取自 ThoughtWorks 内部报销系统，
-1. 系统报销根据所得 ExpenseService.Project 的类型与名称判定产生何种类型的 ExpenseService.Expense
-2. 在报销过程中，可能存在数据丢失或伪造的情况，所以需要判定 ExpenseService.Project 类型是不是无效的
+This is a part of implementation code pick up from a Internal reimbursement system. you should write unit test for it to make sure it can work in production.
 
-###### *注：项目截取改编自 Salesforce/APEX*
 
-## 测试代码
+## Practice Requirement:
+- ** Write test cases after clearly understanding the implemented code**
+- ** Complete tests in the existing test file and ensure that the test coverage of the test category of this test file is 100%**
+- Unit testing should cover all core business logic
+- Make unit test refactoring with small steps
+- ** Submit code in small steps with a comment on meaning **
+- Complete unit tests on the corresponding file under the **src/test** catalog of project
 
-项目测试代码分别测试五种不同的情况
-1. 内部项目
-2. 外部项目 + 规范名称 A
-3. 外部项目 + 规范名称 B
-4. 外部项目 + 其他名称
-5. 错误项目
+#### Environment Requirement
+- Java 8
+- Intellj IDEA
+- JUnit 5
+- AssertJ 3.10.0
+- Gradle
 
-通过使用 AssertJ，采用 Fluent API 的方式断言，更加清晰和直观的对需要判定的内容审查
+#### How to Start
 
-## 技术栈
-1. gradle
-2. Java 8
-3. JUnit 5
-4. AssertJ 3.10.0
+- Clone repository: **https://github.com/tws-graduate-bootcamp/unit-test-comprehensive**
+
+
+#### How to Test
+- Implement `./gradlew clean test` under root catalogue and view test result
+ 
+## Practice Output && Submit
+- You should implement the test code and push your repo to github repo named **unit-test-basic**.
+- Commit your repostory link to complete this Question.
 
