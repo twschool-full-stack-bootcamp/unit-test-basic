@@ -22,7 +22,7 @@ This is a part of implementation code pick up from a Internal reimbursement syst
 
 #### How to Start
 
-- Clone repository: **https://github.com/tws-graduate-bootcamp/unit-test-comprehensive**
+- Clone repository: **https://github.com/tws-graduate-bootcamp/unit-test-basic**
 
 
 #### How to Test
