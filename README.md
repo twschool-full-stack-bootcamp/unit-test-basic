@@ -22,8 +22,8 @@ This is a part of implementation code pick up from a Internal reimbursement syst
 
 #### How to Start
 
-- Clone repository: **https://github.com/tws-graduate-bootcamp/unit-test-basic**
-
+- You can fork the following github repository as starting point  
+- Please submit your own github repository address in the answer field.  
 
 #### How to Test
 - Implement `./gradlew clean test` under root catalogue and view test result
